@@ -1,4 +1,3 @@
-import sys
 
 def main(input_string):
     print('Кол-во символов:', len(input_string))
