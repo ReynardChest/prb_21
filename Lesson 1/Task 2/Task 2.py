@@ -20,7 +20,7 @@ def palindrome_check(input_str, register=False):
     # Проверка палиндрома
     output = []
     for word in string:
-        if word is word[::-1]:
+        if word == word[::-1]:
             output.append(True)
         else:
             output.append(False)
