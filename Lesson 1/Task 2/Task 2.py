@@ -1,6 +1,6 @@
 def palindrome_check(input_str, register=False):
     """Определяет, являются ли строка или слова палиндромами.
-    исходные данные - массив с True/False
+    выходные данные - массив с True/False
     input_str - строка слов,
     register = False/True - учитывание регистра букв.
     """
